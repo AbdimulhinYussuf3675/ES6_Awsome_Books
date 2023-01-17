@@ -8,6 +8,8 @@ const addbtn1 = document.getElementById('addbtn1');
 
 addbtn1.addEventListener('click', () => {
   addBook.style.display = 'block';
+  contact.style.display = 'none';
+  bookStore.style.display = 'none';
 });
 bookLink.addEventListener('click', () => {
   bookStore.style.display = 'block';

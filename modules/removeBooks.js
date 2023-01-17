@@ -14,7 +14,7 @@ class Book {
   }
 
   removeBook = () => {
-    store = store.filter((book) => book.id !== this.id);
+    store = store.filter((book) => book.id === this.id);
   };
 }
 
