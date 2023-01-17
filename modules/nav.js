@@ -15,7 +15,6 @@ bookLink.addEventListener('click', () => {
   contact.style.display = 'none';
 });
 
-
 contactLink.addEventListener('click', () => {
   contact.style.display = 'block';
   bookStore.style.display = 'none';
